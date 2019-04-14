@@ -32,3 +32,10 @@ cacheSolve <- function(x, ...) {
   m
 }
 
+## Test Run
+## y <- matrix (1:4,2,2)
+## test <- makeCacheMatrix(y)
+        ## First Time Storing inverse
+## cacheSolve(test)
+        ## Second call on same matrix, must retrieve from cache
+## cacheSolve(test)
